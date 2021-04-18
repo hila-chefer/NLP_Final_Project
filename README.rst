@@ -74,6 +74,7 @@ LXMERT
       * ``method=ours`` will run our method for scoring heads. To use LRP set ``method=lrp``.
       * To run negative pruning (where less important heads are removed first) remove the flag ``--is-positive-pert True``.
       * ``COCO_path`` should be the same path used in the VisualBERT experiments, i.e. ``/path/to/data_dir/datasets/coco/subset_val/images/val2014/``.
+      * ``prune_type`` should be ``head/layer`` depending on whether you want to prune heads/layers.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
