@@ -14,7 +14,7 @@ Notebook with examples of visualizations:
 Using Colab
 ----------------
 
-* Installing all the requirements may take some time. After installation, please restart the runtime.
+* Installing all the requirements may take some time. After installation, please restart the runtime and then run all cells (including the first one).
 
 Reproduction of results
 -----------------------
