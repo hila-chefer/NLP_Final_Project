@@ -67,7 +67,7 @@ LXMERT
 
     .. code-block:: bash
 
-      CUDA_VISIBLE_DEVICES=0 PYTHONPATH=`pwd` python lxmert/lxmert/perturbation.py  --COCO_path /path/to/COCO_val2014 --method <ours/lrp> --is-positive-pert True --num-samples 10000 --prune_type <head/layer> --seed 1234
+      CUDA_VISIBLE_DEVICES=0 PYTHONPATH=`pwd` python lxmert/lxmert/perturbation.py  --COCO_path /path/to/data_dir/datasets/coco/subset_val/images/val2014/ --method <ours/lrp> --is-positive-pert True --num-samples 10000 --prune_type <head/layer> --seed 1234
       
    .. note::
 
@@ -94,7 +94,7 @@ Generating Visualizations
   Run the ``generate_visualization.py`` script as follows:
 .. code-block:: bash
 
-      CUDA_VISIBLE_DEVICES=0 PYTHONPATH=`pwd` python lxmert/lxmert/generate_visualization.py  --COCO_path /path/to/COCO_val2014 --num-samples 2 --seed 1234
+      CUDA_VISIBLE_DEVICES=0 PYTHONPATH=`pwd` python lxmert/lxmert/generate_visualization.py  --COCO_path /path/to/data_dir/datasets/coco/subset_val/images/val2014/ --num-samples 2 --seed 1234
  
 .. note::
 
