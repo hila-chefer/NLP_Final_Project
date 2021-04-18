@@ -7,7 +7,7 @@ Notebook with examples of visualizations:
 |examples|
 
 .. |examples| image:: https://colab.research.google.com/assets/colab-badge.svg
-                   :target: https://colab.research.google.com/github/hila-chefer/Transformer-MM-Explainability/blob/main/Transformer_MM_Explainability.ipynb
+                   :target: https://colab.research.google.com/github/hila-chefer/NLP_Final_Project/blob/main/Explainability_Based_Attention_Head_Analysis_for_Transformers.ipynb
 
 .. sectnum::
 
