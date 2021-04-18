@@ -38,7 +38,7 @@ Run the ``run.py`` script as follows:
 
 .. note::
 
- * If the datasets aren't already in ``env.data_dir``, then the script will download the data automatically to the path in ``env.data_dir``.
+ * If you already downloaded the data, ``env.data_dir`` should be the path to the downloaded data. The ``env.data_dir`` directory is expected to contain the COCO 2014 validation data. If the datasets aren't already in ``env.data_dir``, then the script will download the data automatically to the path in ``env.data_dir``.
  * ``training.trainer`` should be one of: "mmf_head_prun", "mmf_layer_prun", "mmf_exp" depending on whether you want to prune heads/layers or generate visualizations.
  * To run using our scoring method use ``prune.is_grad=True``. To use LRP run ``prune.is_grad=False``.
  * When pruning heads/layers, to prune largest first (what we call *positive*) use ``prune.positive_prune=True``. Otherwise use ``prune.positive_prune=False``.
