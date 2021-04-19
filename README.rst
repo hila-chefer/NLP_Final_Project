@@ -122,6 +122,7 @@ Since we use MMF as a base, which is a large repository, we attach a list of fil
 * lxmert/lxmert/src/VisualizationGenerator.py
 * lxmert/lxmert/src/param.py
 * lxmert/lxmert/src/huggingface_lxmert.py
+* lxmert/lxmert/src/lxmert_lrp.py
 
 Credits
 -------
