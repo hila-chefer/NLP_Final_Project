@@ -109,18 +109,20 @@ Code
 
 Since we use MMF as a base, which is a large repository, we attach a list of files we have changed/added:
 
-* /run.py
-* /mmf/models/transformers/backends/BERT_ours.py
-* /mmf/models/transformers/backends/ExplanationGenerator.py
-* /mmf/models/transformers/backends/VisualizationGenerator.py
-* /mmf/trainers/mmf_trainer.exp
-* /mmf/trainers/core/evaluation_loop
-* /lxmert/lxmert/generate_visualization.py
-* /lxmert/lxmert/perturbation.py
-* /lxmert/lxmert/src/ExplanationGenerator.py
-* /lxmert/lxmert/src/VisualizationGenerator.py
-* /lxmert/lxmert/src/param.py
-* /lxmert/lxmert/src/huggingface_lxmert.py
+* run.py
+* mmf/models/visual_bert.py
+* mmf/models/transformers/backends/BERT_ours.py
+* mmf/models/transformers/backends/ExplanationGenerator.py
+* mmf/models/transformers/backends/VisualizationGenerator.py
+* mmf/trainers/mmf_trainer.exp
+* mmf/trainers/core/evaluation_loop
+* lxmert/lxmert/generate_visualization.py
+* lxmert/lxmert/perturbation.py
+* lxmert/lxmert/src/ExplanationGenerator.py
+* lxmert/lxmert/src/VisualizationGenerator.py
+* lxmert/lxmert/src/param.py
+* lxmert/lxmert/src/huggingface_lxmert.py
+
 Credits
 -------
 
