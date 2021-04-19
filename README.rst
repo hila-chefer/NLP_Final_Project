@@ -90,7 +90,7 @@ Generating Visualizations
 
 * This will run visualizations for pruning 0%, 40%, 60%, 90% of the least significant heads using our method.
 * Results are saved to the root project directory.
-* The example shown in the paper is the second one.
+* The example shown in the report is the second one.
 * Set ``training.trainer=mmf_exp`` to output visualizations
 
 **LXMERT:**
@@ -103,7 +103,7 @@ Generating Visualizations
 
 * This will run visualizations for pruning 0%, 40%, 60%, 90% of the least significant heads using our method.
 * Results are saved to the root project directory.
-* The example shown in the paper is the second one.
+* The example shown in the report is the second one.
 Code
 ----
 
