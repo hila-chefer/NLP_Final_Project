@@ -116,6 +116,7 @@ Since we use MMF as a base, which is a large repository, we attach a list of fil
 * mmf/models/transformers/backends/VisualizationGenerator.py
 * mmf/trainers/mmf_trainer.exp
 * mmf/trainers/core/evaluation_loop
+* mmf/models/transformers/backends/layers_ours.py
 * lxmert/lxmert/generate_visualization.py
 * lxmert/lxmert/perturbation.py
 * lxmert/lxmert/src/ExplanationGenerator.py
@@ -123,6 +124,7 @@ Since we use MMF as a base, which is a large repository, we attach a list of fil
 * lxmert/lxmert/src/param.py
 * lxmert/lxmert/src/huggingface_lxmert.py
 * lxmert/lxmert/src/lxmert_lrp.py
+* lxmert/lxmert/src/layers.py
 
 Credits
 -------
